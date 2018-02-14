@@ -52,8 +52,8 @@ KDTree是根据m维空间中的数据集D构建的二叉树，能加快搜索速
 
 5.  若此节点为非叶子节点，使用Max和Min构建以下数据点h：
 
->   h[i] = Max[i]，若input[i] \> Max[i]；h[i] = Min[i]，若input[i] \<
->   Min[i]；h[i] = input[i],若Min[i] \< input[i]\< Max[i]。计算h到input的距离dis
+    h[i] = Max[i]，若input[i] \> Max[i]；h[i] = Min[i]，若input[i] \<
+    Min[i]；h[i] = input[i],若Min[i] \< input[i]\< Max[i]。计算h到input的距离dis
 
 1.  若dis \>= distance[1]，回到第2步
 
