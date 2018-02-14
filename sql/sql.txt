@@ -1,0 +1,11 @@
+create table map(
+     node_id number(18),
+     lat number(18,10),
+     lon number(18,10),
+     way_id number(18)
+)
+
+load data 
+infile 'C:\Users\delluser\桌面\final.txt' 
+append into table map 
+fields terminated by ' '
